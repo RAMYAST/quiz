@@ -1,0 +1,57 @@
+body {
+    background-size: cover;
+    background-repeat:no-repeat;
+
+	background-color:#c4aac4;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    color:#000;
+
+}
+h1{
+    text-align: center;
+}
+
+.question {
+	font-size: 30px;
+	margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.options {
+	font-size: 20px;
+	display: grid;
+    text-align: center;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 25px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	position: fixed;
+	top: 40%;
+	left: 40%;
+}
+
+button {
+
+	font-size: 20px;
+	padding: 10px 20px;
+	background-color: #4f98c2;
+	border: none;
+    border-radius: 20px;
+	cursor: pointer;
+    display:flex;
+    margin: 0 auto;
+    
+    
+}
+.butt{
+    margin-top: 12%;
+}
+#score {
+	font-size: 30px;
+	color: darkslategray;
+    text-align: center;
+}
